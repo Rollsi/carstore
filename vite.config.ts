@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -8,6 +10,9 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   base: '/carstore/',
+  server: {
+    port: 3000,
+  },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
