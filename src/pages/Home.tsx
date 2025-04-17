@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronRight, Shield, Star, Clock, DollarSign, Settings, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
